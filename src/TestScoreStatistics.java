@@ -6,7 +6,7 @@ public class TestScoreStatistics {
 
         Scanner input = new Scanner(System.in);
 
-        int userChoice = 0;
+        int userChoice;
         final int MAX = 100;
         final int MIN = 0;
         int count = 0;
@@ -18,7 +18,7 @@ public class TestScoreStatistics {
 
         System.out.println("Please enter a number between 0 & 100 or type 999 to quit >>>> ");
         userChoice = input.nextInt();
-        
+
         high = userChoice;
         low = userChoice;
         while (userChoice != 999) {
